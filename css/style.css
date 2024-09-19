@@ -16,6 +16,8 @@
     width: 30%;
     height: 80%;
     position: relative;
+    display: grid;
+    place-items: center;
 }
 
 .Portrait{
@@ -36,7 +38,7 @@
 }
 
 .Claim_section{
-    background-color: rgb(97, 187, 197);
+    background-color: rgb(97, 140, 197);
     float: right;
     width: 30%;
     height: 30%;
@@ -79,7 +81,7 @@
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    right: 10%;
+    right: 15%;
     margin: 1%; 
 }
 .Pages{
@@ -88,12 +90,11 @@
     right: 10%;
 }
 
-.ListOfAchievements{
+.Achievements ListOfAchievements{
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    padding-left: 40%;
-    padding-top: 60%;
+    object-fit: contain;
+    overflow: auto;  
 }
 
 .Years{
